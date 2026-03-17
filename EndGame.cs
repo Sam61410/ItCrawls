@@ -7,7 +7,7 @@ public class EndGame : MonoBehaviour
     //You could probably reference your start game script in here to trigger the same thing as when you start the game
     [SerializeField] GameObject startText;
 
-    public void EndGameSceen()
+    public void EndGameScene()
     {
         ////Resets game
         Scene currentScene = SceneManager.GetActiveScene();
