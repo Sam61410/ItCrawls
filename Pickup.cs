@@ -103,7 +103,7 @@ public class Pickup : MonoBehaviour
                 //If you click the door and placed both fuses, end game
                 if (raycastHit.transform.TryGetComponent(out endGame) && (bothPlaced == true))
                 {
-                    endGame.EndGameSceen();
+                    endGame.EndGameScene();
                 }
             }
         }
